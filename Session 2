@@ -1,0 +1,35 @@
+# + - * / %
+
+'''
+Name: Prajna Paromita Shome
+Batch: PTH-N212-2
+Session: 2
+'''
+
+print ("I love my country, Bangladesh.") 
+
+Mary = 87
+Merry = 85
+
+total = str(Mary + Merry)
+avg = str((Mary + Merry) / 2)
+diff = str(Mary - Merry)
+
+print("Mary and Merry got " + total + " marks in total.")
+print("Mary scored " + diff + " more than Merry.")
+print("Average marks of Mary and Merry is " + avg + ".") 
+
+a = 23  #int
+b = 11.5 #float
+c = 30  #int 
+
+d = str (a / b) 
+e = str (c % b) 
+f = str (a * c)
+
+print ("The quotient when b divides a is " + d + ".")
+print ("The residue when b divides c is " + e + ".")  
+print ("The product of a and c is " + f + ".")
+
+print('The boys\' toys were found elsewhere.')
+print ("  Hello Hello \r World,")
