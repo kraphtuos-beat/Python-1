@@ -1,0 +1,200 @@
+# Arithmatic Operators
+
+"""
++  ->  Addition 
+    Adds two or more quatities or variables or strings
+"""
+
+print(23+24)
+
+a = 22  #int
+b = 23  #int
+c = 25.605  #float
+
+print(a + b + c) 
+
+A = "Book is "
+B = "my love."
+
+print(A + B)
+
+
+"""
+-  ->  Subtraction
+    Subtracts one quatity or variable from another
+""" 
+
+print(23 - 4)
+
+c = 79.529  #float
+d = 43.902  #float
+
+print(c - d)
+
+"""
+*  ->  Multiplication
+    Multiplies two quantities or variables
+"""
+
+print(34*56)
+
+e = 45  #int
+f = 21  #int
+
+print(e * f)
+
+print("Hello\n" * 8)
+
+"""
+/ -> Division
+    Divides a quantity or variable by another
+"""
+
+print(35/7)
+
+g = 256 #int
+h = 64  #int
+
+print(g / h)
+
+"""
+%   -> Modulus
+    Gives the residue of a dividend when divided by s divisor
+"""
+
+j = 34  #int
+k = 7   #int
+
+print(j % k)
+print(j % 5)
+print(5 % 4)
+
+"""
+**  -> Exponent
+    gives the product when n (any integer) is multiplied by itself n times
+"""
+ 
+print(2 ** 3)   # Means 2*2*2
+
+l = 34  #int
+m = 2   #int
+
+print(l ** m)
+
+"""
+//  -> Floor Division
+    Rounds DOWN to the nearest integer
+"""
+
+print(5 // 2)
+
+n = 95  #int
+o = 20  #int
+
+p = str(n // o)
+
+print("The result when floor function in applied is " + p)
+
+Tira = 47
+Mira = 45
+Full_mark = 50
+
+Total = str(Tira + Mira)
+Difference = str(Tira - Mira)
+Avg = str((Tira + Mira) / 2)
+Percent_Tira = str((Tira / Full_mark) *100)
+Percent_Mira = str((Mira / Full_mark) *100)
+
+print("Total marks obtained by Tira and Mira is " + Total + ".")
+print("Tira got " + Difference + "marks more than that of Mira.")
+print("Tira and Mira got " + Avg + " marks in average.")
+print("Tira achieved " + Percent_Tira + "% marks.")
+print("Mira achieved " + Percent_Mira + "% marks.")
+
+
+# Comparison Operators
+
+"""
+==  -> Equal to 
+    Checks whether two quantities or variables are equal or not
+
+>   -> Is greater than
+    Shows that left hand side is greater than right hand side
+
+<   -> Is less than
+    Shows that left hand side is less than right hand side
+"""
+
+q = 30  #int
+r = 40  #int
+
+if q > r:
+    print("q is greater than r")
+elif q == r:
+    print("q is equaal to r")
+else:
+    print("q is less than r")
+
+
+# Assignment Operator
+
+""""
+=   -> Assignment operator
+    Assigns a value to a variable
+"""
+
+s = 423.625 #float
+
+print(s)
+
+"""
+i += t  ->  i = i + t
+    Adds t to i and stores the value in i
+
+i -= t  ->  i = i - t
+    Subtracts t from i and stores the value in i
+
+i *= t  ->  i = i * t
+    Multiplies i by t and stores the value in i
+
+i /= t  ->  i = i / t
+    Divides i by t and stores the value in i
+"""
+
+i = 48
+t = 16
+
+i+=t
+print(i)
+
+i-=t
+print(i)
+
+i*=t
+print(i)
+
+i/=t
+print(i)
+
+# Logical Operators
+
+"""
+and
+or
+not
+"""
+
+# check the two statements: u == 67 , v == 38
+
+u = 60
+v = 38
+
+if u == 67 and v == 38:
+    print("Both statements are true")
+elif u == 67 and v != 38:
+    print("First statement is true")
+elif u != 67 and v == 38:
+    print("Second statement is true")
+else:
+    print("None of the statements is true")
+
